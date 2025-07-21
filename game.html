@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Game</h1>
+       
+        <div id="choices">
+            <button onclick="playGame('rock')">Rock</button>
+            <button  onclick="playGame('paper')">Paper</button>
+            <button  onclick="playGame('scissors')">Scissors</button>
+        </div>
+         <div id="scoreboard">
+            <p><strong>Computer Score :</strong> <span id="computer-score"> 0</span></p>
+            <p><strong>Your Score :</strong> <span id="player-score"> 0</span></p>
+            <p id="round-info"></p>
+        </div>
+        <div id="result"></div>
+        <button id="restart-btn" style="display:none;">Restart Game</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

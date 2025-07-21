@@ -1,0 +1,78 @@
+body {
+    background: #111;
+    color: #ffe066;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #181818;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.7);
+    padding: 32px 24px;
+    max-width: 400px;
+    width: 100%;
+    margin: 24px auto;
+}
+
+h1, h2, h3 {
+    color: #ffe066;
+    margin-bottom: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+button {
+    background: #ffe066;
+    color: #111;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+button:hover {
+    background: #fff6b0;
+    transform: scale(1.05);
+}
+
+input, select {
+    background: #222;
+    color: #ffe066;
+    border: 1px solid #ffe066;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: #ffe066;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#choices {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    letter-spacing: center;
+}
+#scoreboard {
+    padding: 16px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}   
