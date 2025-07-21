@@ -20,17 +20,6 @@ Play the game now:
 - **JavaScript** - Game logic and interactivity
 - **GitHub Pages** - Free hosting and deployment
 
-## 📂 Project Structure
-Rock-Paper-Scissors/
-├── index.html # Main game interface
-├── intro.html # Introduction/welcome page
-├── styles.css # Main stylesheet
-├── script.js # Game logic and functionality
-│ ├── rock.png
-│ ├── paper.png
-│ └── scissors.png
-├── README.md 
-
 
 ## 🔧 Local Setup
 Want to run this locally? Follow these steps:
